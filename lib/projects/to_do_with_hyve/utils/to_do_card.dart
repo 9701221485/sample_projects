@@ -13,6 +13,7 @@ class ToDoCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      color: Colors.yellow.shade200,
       child: ListTile(
         title: Text(
           name,
